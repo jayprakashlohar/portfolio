@@ -15,9 +15,9 @@
       ],
       "impact": "Streamlined workflow automation with visual canvas and role-based permissions",
       "period": "2024-01 - Present",
-      "images": ["/screenshots/delegation.png"],
+      "images": ["/screenshots/fms.png"],
       "repo": "https://github.com/jayprakashlohar/flow-management-system",
-      "live": "https://fms.ceoitbox.com",
+      "live": "http://103.209.144.221/",
       "problem": "Organizations needed an intuitive way to design, visualize, and manage complex workflows without writing code.",
       "solution": "Built a dynamic visual workflow builder using React Flow with drag-and-drop functionality, configurable node properties, and scalable architecture.",
       "tech_details": [
@@ -50,7 +50,7 @@
       "period": "2024-11 - Present",
       "images": ["/screenshots/delegation.png"],
       "repo": "https://github.com/jayprakashlohar/delegation-system",
-      "live": "https://task.ceoitbox.com",
+      "live": "https://task.ceoitbox.com/",
       "problem": "Teams needed a robust task management solution with real-time updates, priority management, and productivity insights.",
       "solution": "Developed a feature-rich task management UI with React Query for efficient caching, filtering capabilities, and analytics dashboards.",
       "tech_details": [
@@ -74,7 +74,7 @@
       "stack": ["React", "Node.js", "OpenAI API", "MongoDB", "Express"],
       "impact": "Enhanced business operations with AI automation",
       "period": "2024-06 - 2025-01",
-      "images": ["/screenshots/aipowered.png"],
+      "images": ["/screenshots/cbxai.png"],
       "repo": "https://github.com/jayprakashlohar/cbx-ai",
       "live": "https://ai.ceoitbox.com",
       "problem": "Manual processes required automation and intelligent decision-making capabilities.",
@@ -133,9 +133,9 @@
       "stack": ["React", "D3.js", "Node.js", "MongoDB", "TailwindCSS"],
       "impact": "Streamlined organization structure visualization and management",
       "period": "2024-05 - 2024-09",
-      "images": ["/screenshots/delegation.png"],
+      "images": ["/screenshots/cbxtree.png"],
       "repo": "https://github.com/jayprakashlohar/cbx-tree",
-      "live": "https://tree.ceoitbox.com",
+      "live": "https://cbxtree.in",
       "problem": "Organizations needed an intuitive way to visualize and manage complex hierarchical structures.",
       "solution": "Built an interactive org-tree visualization tool with drag-and-drop capabilities and real-time updates.",
       "tech_details": [
@@ -151,32 +151,7 @@
         "Real-time updates across team members"
       ]
     },
-    {
-      "id": "cbx-start",
-      "title": "CBX Start - Onboarding System",
-      "summary": "Comprehensive onboarding platform with guided flows, progress tracking, and automated workflows.",
-      "role": "Full Stack Developer",
-      "stack": ["React", "Node.js", "MongoDB", "Express", "TailwindCSS"],
-      "impact": "Reduced onboarding time and improved new user experience",
-      "period": "2024-02 - 2024-06",
-      "images": ["/screenshots/delegation.png"],
-      "repo": "https://github.com/jayprakashlohar/cbx-start",
-      "live": "https://start.ceoitbox.com",
-      "problem": "New users and employees needed a structured onboarding experience with clear guidance.",
-      "solution": "Developed an onboarding system with step-by-step flows, progress tracking, and automated task assignments.",
-      "tech_details": [
-        "Built guided onboarding flows with progress indicators",
-        "Implemented role-based onboarding paths",
-        "Created automated task assignment system",
-        "Developed analytics dashboard for tracking completion rates",
-        "Integrated with existing systems for seamless data flow"
-      ],
-      "metrics": [
-        "Reduced onboarding time by 50%",
-        "90% completion rate for onboarding flows",
-        "Improved new user satisfaction scores"
-      ]
-    },
+
     {
       "id": "short-url-system",
       "title": "Short URL System",
@@ -185,9 +160,9 @@
       "stack": ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
       "impact": "Simplified link sharing with tracking and analytics capabilities",
       "period": "2024-01 - 2024-03",
-      "images": ["/screenshots/delegation.png"],
+      "images": ["/screenshots/shorturl.png"],
       "repo": "https://github.com/jayprakashlohar/short-url",
-      "live": "https://short.ceoitbox.com",
+      "live": "https://cbxit.in/",
       "problem": "Teams needed a reliable URL shortening service with click tracking and custom branding.",
       "solution": "Built a full-featured URL shortener with analytics, custom aliases, and QR code generation.",
       "tech_details": [

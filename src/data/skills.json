@@ -33,16 +33,6 @@
             "Ant Design",
             "Material-UI"
           ]
-        },
-        {
-          "name": "Angular",
-          "proficiency": 80,
-          "tools": [
-            "Angular Framework",
-            "RxJS",
-            "TypeScript",
-            "Angular Material"
-          ]
         }
       ]
     },

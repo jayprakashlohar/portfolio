@@ -53,7 +53,7 @@ src/
 
 public/
 ├── screenshots/       # Project screenshots
-├── resume.pdf        # Downloadable resume
+├── Jayprakash_lohar.pdf        # Downloadable resume
 └── robots.txt       # SEO robots file
 ```
 
