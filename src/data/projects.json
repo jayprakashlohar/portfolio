@@ -1,177 +1,206 @@
 {
   "featured": [
     {
-      "id": "lms-platform",
-      "title": "Learning Management System",
-      "summary": "Comprehensive LMS platform with video streaming, progress tracking, and AI-powered personalized learning paths.",
-      "role": "Software Developer",
+      "id": "flow-management-system",
+      "title": "Flow Management System (FMS)",
+      "summary": "Dynamic visual workflow builder with drag-and-drop nodes, configurable properties, and role-based access control.",
+      "role": "Full Stack Developer",
       "stack": [
-        "React.js",
+        "React",
+        "React Flow",
+        "Redux Toolkit",
+        "shadcn/ui",
         "Node.js",
-        "PostgreSQL",
-        "AWS"
+        "MongoDB"
       ],
-      "impact": "Serving 5K+ students with 95% completion rate",
-      "period": "2025-06 - Present",
-      "images": [
-        "/screenshots/kcglobed.png"
-      ],
-      "repo": "https://github.com/suneelrajput/lms-platform",
-      "live": "https://kcglobed.com",
-      "problem": "Educational institutions needed a scalable platform for online learning with personalized student experiences.",
-      "solution": "Built a full-featured LMS with video streaming, progress analytics, and AI-driven personalized learning recommendations.",
+      "impact": "Streamlined workflow automation with visual canvas and role-based permissions",
+      "period": "2024-01 - Present",
+      "images": ["/screenshots/delegation.png"],
+      "repo": "https://github.com/jayprakashlohar/flow-management-system",
+      "live": "https://fms.ceoitbox.com",
+      "problem": "Organizations needed an intuitive way to design, visualize, and manage complex workflows without writing code.",
+      "solution": "Built a dynamic visual workflow builder using React Flow with drag-and-drop functionality, configurable node properties, and scalable architecture.",
       "tech_details": [
-        "Implemented video streaming with AWS CloudFront CDN",
-        "Built progress tracking and analytics dashboard",
-        "Created AI-powered learning path recommendations"
+        "Built dynamic visual workflow builder using React Flow with drag-and-drop nodes",
+        "Designed scalable frontend architecture with React and Redux Toolkit",
+        "Implemented role-based access control and permissions system",
+        "Optimized UI performance using memoization and virtualization for smooth canvas experience",
+        "Integrated shadcn/ui for modern component design"
       ],
       "metrics": [
-        "5K+ active students enrolled",
-        "95% course completion rate",
-        "40% improvement in learning outcomes"
+        "Enabled no-code workflow creation for non-technical users",
+        "Reduced workflow setup time by 60%",
+        "Supporting multiple teams with role-based access"
       ]
     },
     {
-      "id": "ai-helpdesk",
-      "title": "AI Helpdesk SaaS",
-      "summary": "AI-powered helpdesk system with ticket management, role-based dashboards, and generative AI support.",
-      "role": "Software Engineer • MERN & Generative AI",
+      "id": "delegation-system",
+      "title": "Delegation System - Task Management",
+      "summary": "Comprehensive task management system with filtering, priorities, deadlines, reminders, and analytics dashboards.",
+      "role": "Full Stack Developer",
       "stack": [
         "React",
+        "React Query",
         "Node.js",
-        "Express",
         "MongoDB",
-        "LangChain",
-        "ChromaDB",
-        "OpenAI API",
+        "Chart.js",
         "TailwindCSS"
       ],
-      "impact": "Reduced support workload by 50% through automated AI responses and efficient ticket routing.",
-      "period": "2024-06 - Present",
-      "images": [
-        "/screenshots/aipowered.png"
-      ],
-      "repo": "https://github.com/rsuneel7351/ai-powered-helpdesk",
-      "live": "https://cbxit.in/helpdesk",
-      "problem": "Support teams struggled with high ticket volume, delayed responses, and lack of contextual knowledge in existing helpdesk systems.",
-      "solution": "Built a generative AI helpdesk with RAG-powered search, role-based dashboards, and multi-channel automation to streamline ticket resolution.",
+      "impact": "Enhanced team productivity with efficient task tracking and analytics",
+      "period": "2024-11 - Present",
+      "images": ["/screenshots/delegation.png"],
+      "repo": "https://github.com/jayprakashlohar/delegation-system",
+      "live": "https://task.ceoitbox.com",
+      "problem": "Teams needed a robust task management solution with real-time updates, priority management, and productivity insights.",
+      "solution": "Developed a feature-rich task management UI with React Query for efficient caching, filtering capabilities, and analytics dashboards.",
       "tech_details": [
-        "Implemented Retrieval-Augmented Generation (RAG) using LangChain + ChromaDB",
-        "Connected OpenAI LLMs for natural language ticket answers and ranking",
-        "Developed role-based dashboards for Admin, Support, and Employees",
-        "Integrated WhatsApp & Email automation for real-time notifications",
-        "Built full MERN stack backend + frontend with TailwindCSS UI"
+        "Developed task management UI with filtering, priorities, deadlines, and reminders",
+        "Used React Query for efficient caching, background updates, and fast data loading",
+        "Built analytics dashboards using Chart.js to visualize task trends and productivity metrics",
+        "Implemented progress tracking and real-time status updates",
+        "Created responsive design with TailwindCSS"
       ],
       "metrics": [
-        "50% reduction in manual support effort",
-        "40% faster ticket resolution time",
-        "30% increase in customer satisfaction",
-        "Adopted by multiple internal teams for workflow automation"
+        "Improved task completion rate by 40%",
+        "Real-time data synchronization with background updates",
+        "Comprehensive analytics for productivity insights"
       ]
     },
     {
-      "id": "task-delegation",
-      "title": "Task Delegation System",
-      "summary": "AI-powered task management platform that automatically assigns tasks based on team member skills and availability.",
-      "role": "Full-Stack Developer",
-      "stack": [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "OpenAI API",
-        "Socket.io"
-      ],
-      "impact": "Reduced task assignment time by 70% and improved team productivity by 35%",
-      "period": "2024-10 - 2025-05",
-      "images": [
-        "/screenshots/delegation.png"
-      ],
-      "repo": "https://github.com/suneelrajput/task-delegation",
-      "live": "https://task.ceoitbox.com/",
-      "problem": "Manual task assignment was time-consuming and often resulted in mismatched assignments based on team member availability and skills.",
-      "solution": "Built an AI-powered system that analyzes task requirements, team member skills, and current workload to automatically suggest optimal task assignments.",
+      "id": "cbx-ai",
+      "title": "CBX AI - AI-Powered Features",
+      "summary": "AI-driven internal system with intelligent automation and smart features for business operations.",
+      "role": "Full Stack Developer",
+      "stack": ["React", "Node.js", "OpenAI API", "MongoDB", "Express"],
+      "impact": "Enhanced business operations with AI automation",
+      "period": "2024-06 - 2025-01",
+      "images": ["/screenshots/aipowered.png"],
+      "repo": "https://github.com/jayprakashlohar/cbx-ai",
+      "live": "https://ai.ceoitbox.com",
+      "problem": "Manual processes required automation and intelligent decision-making capabilities.",
+      "solution": "Implemented AI-driven features using OpenAI API to automate and enhance business workflows.",
       "tech_details": [
-        "Implemented real-time collaboration using Socket.io",
-        "Integrated OpenAI API for intelligent task categorization",
-        "Built responsive dashboard with React and Tailwind CSS",
-        "Created REST APIs with Express.js and MongoDB"
+        "Integrated OpenAI API for intelligent automation",
+        "Built AI-powered recommendation system",
+        "Developed smart content generation features",
+        "Implemented natural language processing capabilities"
       ],
       "metrics": [
-        "70% reduction in task assignment time",
-        "35% improvement in team productivity",
-        "900+ active users across 14 companies",
-        "99.9% uptime with automated monitoring"
+        "Reduced manual processing time by 50%",
+        "Improved decision accuracy with AI insights",
+        "Adopted across multiple internal teams"
       ]
     },
     {
       "id": "cbxmeet",
-      "title": "CBXMeet - Meeting Scheduler",
-      "summary": "Effortless scheduling and collaboration tool with advanced features like group scheduling, Meet/Zoom, and seamless calendar integrations.",
-      "role": "Full-Stack Developer",
+      "title": "CBX Meet - Meeting Scheduler",
+      "summary": "Scheduling and collaboration tool with group scheduling, video conferencing integration, and calendar sync.",
+      "role": "Full Stack Developer",
       "stack": [
         "React",
         "Node.js",
-        "Socket.io",
-        "WebRTC",
-        "AWS S3",
+        "MongoDB",
         "Google Calendar API",
-        "Zoom API"
+        "Zoom API",
+        "TailwindCSS"
       ],
-      "impact": "Simplified scheduling and collaboration for 2000+ professionals across multiple teams.",
-      "period": "2023-06 - 2023-09",
-      "images": [
-        "/screenshots/meet.png"
-      ],
-      "repo": "https://github.com/suneelrajput/cbxmeet",
+      "impact": "Simplified scheduling for teams with automated reminders and conflict prevention",
+      "period": "2024-03 - 2024-08",
+      "images": ["/screenshots/meet.png"],
+      "repo": "https://github.com/jayprakashlohar/cbxmeet",
       "live": "https://meet.ceoitbox.com",
-      "problem": "Teams struggled with managing meetings across multiple platforms, overlapping schedules, and lack of automated reminders.",
-      "solution": "Developed a modern meeting scheduler with effortless booking, cross-platform integrations, and smart notifications to streamline collaboration.",
+      "problem": "Teams struggled with managing meetings across platforms, overlapping schedules, and lack of automated reminders.",
+      "solution": "Developed a modern meeting scheduler with cross-platform integrations and smart notifications.",
       "tech_details": [
         "Implemented individual and group scheduling with participant limits",
-        "Built scheduled meetings with future booking support",
-        "Integrated Google Meet and Zoom with easy switching",
-        "Enabled email notifications for reminders and updates",
-        "Synced events seamlessly with Google Calendar for both creator and attendees",
-        "Prevented overlapping meetings with max-limit constraints",
-        "Optimized UI/UX for smooth scheduling experience"
+        "Integrated Google Meet and Zoom APIs",
+        "Built email notification system for reminders",
+        "Synced events with Google Calendar",
+        "Prevented meeting conflicts with max-limit enforcement",
+        "Created responsive scheduling UI"
       ],
       "metrics": [
-        "2000+ professionals actively using",
         "70% faster scheduling compared to manual coordination",
-        "Eliminated meeting conflicts with max-limit enforcement",
-        "95% user satisfaction with integrations and ease of use"
+        "Eliminated meeting conflicts",
+        "Seamless calendar integration across platforms"
       ]
     },
     {
-      "id": "ecommerce-marketplace",
-      "title": "E-Commerce WebApp (Multi-Seller Marketplace)",
-      "summary": "High-performance multi-seller marketplace with real-time order tracking and analytics dashboards.",
-      "role": "Full-Stack Developer",
-      "stack": [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "WebSockets",
-        "TailwindCSS"
-      ],
-      "impact": "Enabled sellers to manage stores efficiently with real-time insights.",
-      "period": "2024-03 - 2024-05",
-      "images": [
-        "/screenshots/ecom.png"
-      ],
-      "repo": "https://github.com/suneel7351/revise-ecommerce",
-      "live": "https://ecom-l278.onrender.com/",
-      "problem": "Small businesses needed a unified platform to sell products online with multi-seller support and live updates.",
-      "solution": "Developed a scalable MERN-based marketplace with seller dashboards, analytics, and real-time order notifications.",
+      "id": "cbx-tree",
+      "title": "CBX Tree - Organization Hierarchy",
+      "summary": "Interactive organizational tree visualization with hierarchy management and role-based views.",
+      "role": "Full Stack Developer",
+      "stack": ["React", "D3.js", "Node.js", "MongoDB", "TailwindCSS"],
+      "impact": "Streamlined organization structure visualization and management",
+      "period": "2024-05 - 2024-09",
+      "images": ["/screenshots/delegation.png"],
+      "repo": "https://github.com/jayprakashlohar/cbx-tree",
+      "live": "https://tree.ceoitbox.com",
+      "problem": "Organizations needed an intuitive way to visualize and manage complex hierarchical structures.",
+      "solution": "Built an interactive org-tree visualization tool with drag-and-drop capabilities and real-time updates.",
       "tech_details": [
-        "Designed seller dashboards with analytics and inventory management",
-        "Implemented WebSocket-based real-time order updates",
-        "Created secure authentication and authorization flows",
-        "Developed responsive UI with React + TailwindCSS"
+        "Created dynamic tree visualization using D3.js",
+        "Implemented drag-and-drop hierarchy management",
+        "Built role-based access controls",
+        "Developed real-time synchronization",
+        "Optimized rendering for large organizational structures"
       ],
       "metrics": [
-        "99.9% uptime post-deployment"
+        "Visualized complex hierarchies with 500+ nodes",
+        "Improved hierarchy management efficiency by 60%",
+        "Real-time updates across team members"
+      ]
+    },
+    {
+      "id": "cbx-start",
+      "title": "CBX Start - Onboarding System",
+      "summary": "Comprehensive onboarding platform with guided flows, progress tracking, and automated workflows.",
+      "role": "Full Stack Developer",
+      "stack": ["React", "Node.js", "MongoDB", "Express", "TailwindCSS"],
+      "impact": "Reduced onboarding time and improved new user experience",
+      "period": "2024-02 - 2024-06",
+      "images": ["/screenshots/delegation.png"],
+      "repo": "https://github.com/jayprakashlohar/cbx-start",
+      "live": "https://start.ceoitbox.com",
+      "problem": "New users and employees needed a structured onboarding experience with clear guidance.",
+      "solution": "Developed an onboarding system with step-by-step flows, progress tracking, and automated task assignments.",
+      "tech_details": [
+        "Built guided onboarding flows with progress indicators",
+        "Implemented role-based onboarding paths",
+        "Created automated task assignment system",
+        "Developed analytics dashboard for tracking completion rates",
+        "Integrated with existing systems for seamless data flow"
+      ],
+      "metrics": [
+        "Reduced onboarding time by 50%",
+        "90% completion rate for onboarding flows",
+        "Improved new user satisfaction scores"
+      ]
+    },
+    {
+      "id": "short-url-system",
+      "title": "Short URL System",
+      "summary": "URL shortening service with analytics, custom aliases, and QR code generation.",
+      "role": "Full Stack Developer",
+      "stack": ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
+      "impact": "Simplified link sharing with tracking and analytics capabilities",
+      "period": "2024-01 - 2024-03",
+      "images": ["/screenshots/delegation.png"],
+      "repo": "https://github.com/jayprakashlohar/short-url",
+      "live": "https://short.ceoitbox.com",
+      "problem": "Teams needed a reliable URL shortening service with click tracking and custom branding.",
+      "solution": "Built a full-featured URL shortener with analytics, custom aliases, and QR code generation.",
+      "tech_details": [
+        "Implemented efficient URL shortening algorithm",
+        "Built click tracking and analytics dashboard",
+        "Created custom alias functionality",
+        "Integrated QR code generation",
+        "Developed API for programmatic access"
+      ],
+      "metrics": [
+        "Processing 10K+ shortened URLs",
+        "Real-time click analytics",
+        "99.9% uptime for URL redirects"
       ]
     }
   ]

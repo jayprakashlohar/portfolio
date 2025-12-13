@@ -1,10 +1,11 @@
-# Suneel Rajput - Portfolio Website
+# Jay Prakash Lohar - Portfolio Website
 
 A modern, responsive portfolio website built with React, TypeScript, Tailwind CSS, and Framer Motion. Features a data-driven architecture with glassmorphism design and premium animations.
 
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or yarn
 
@@ -70,6 +71,7 @@ The portfolio uses a custom design system with:
 ### Updating Personal Information
 
 Edit `src/data/profile.json`:
+
 ```json
 {
   "name": "Your Name",
@@ -89,6 +91,7 @@ Edit `src/data/profile.json`:
 ### Adding/Updating Projects
 
 Edit `src/data/projects.json`:
+
 ```json
 {
   "featured": [
@@ -111,6 +114,7 @@ Edit `src/data/projects.json`:
 ### Updating Skills
 
 Edit `src/data/skills.json`:
+
 ```json
 {
   "categories": {
@@ -168,23 +172,28 @@ Edit `src/data/skills.json`:
 ## 🚢 Deployment
 
 ### Using Vercel (Recommended)
+
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Deploy with default settings
 
 ### Using Netlify
+
 1. Build the project: `npm run build`
 2. Deploy the `dist` folder to Netlify
 
 ### Manual Deployment
+
 1. Run `npm run build`
 2. Upload the `dist` folder to your hosting provider
 
 ## 📧 Support
 
 For questions or issues, please contact:
-- Email: suneel.rajput@example.com
-- LinkedIn: [linkedin.com/in/suneel-rajput](https://linkedin.com/in/suneel-rajput)
+
+- Email: loharjayprakash4@gmail.com
+- LinkedIn: [linkedin.com/in/jay-prakash-lohar-571823236](https://linkedin.com/in/jay-prakash-lohar-571823236)
+- GitHub: [github.com/jayprakashlohar](https://github.com/jayprakashlohar)
 
 ## 📄 License
 

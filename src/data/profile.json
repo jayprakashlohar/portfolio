@@ -1,56 +1,56 @@
 {
-  "name": "Suneel Kumar",
-  "headline": "Focused on delivering high-performance applications with MERN & Generative AI",
+  "name": "Jay Prakash Lohar",
+  "headline": "Full Stack Developer specializing in React, Next.js, and scalable MERN applications",
   "role": "Software Engineer • MERN & Generative AI",
-  "experience_years": 2,
-  "education": "B.Tech in Information Technology, CSJMU Kanpur (2024)",
+  "experience_years": 2.1,
+  "education": "Full-Stack Web Development, Masai School (2023) • Bachelor of Arts, Mohanlal Sukhadia University (2019)",
   "positions": [
     {
       "company": "CEOITBOX",
-      "title": "Software Engineering Intern",
-      "period": "Jun 2023 – Dec 2023",
+      "title": "Software Developer Intern",
+      "period": "Oct 2023 – April 2024",
       "bullets": [
-        "Created responsive onboarding flows in React and Node.js that enhanced user experience.",
-        "Built internal dashboards that boosted team productivity by 25%.",
-        "Worked closely with senior developers on real-world MERN stack projects."
+        "Developed full-stack modules using the MERN stack and participated across the full SDLC.",
+        "Integrated third-party APIs and payment gateways, and implemented secure backend logic and validations."
       ]
     },
     {
       "company": "CEOITBOX",
       "title": "Associate Software Developer",
-      "period": "Jan 2024 – Jun 2025",
+      "period": "April 2024 – April 2025",
       "bullets": [
-        "Developed Task Delegation and Helpdesk systems from the ground up using MERN stack.",
-        "Optimized database queries, cutting system response times by 35%.",
-        "Integrated AI-powered features for automated task assignments.",
-        "Led code reviews and mentored two junior developers to improve overall code quality."
+        "Developed reusable and modular React components, reducing development time and improving maintainability.",
+        "Enhanced frontend performance and reduced API latency by 30% through memoization and request optimizations.",
+        "Wrote unit and integration tests using Jest, achieving 80%+ test coverage on critical modules.",
+        "Collaborated with cross-functional teams to deliver scalable applications in an Agile environment."
       ]
     },
     {
-      "company": "KCGlobed",
-      "title": "Software Developer",
-      "period": "Jun 2025 – Present",
+      "company": "CEOITBOX",
+      "title": "Full Stack Developer",
+      "period": "April 2025 – Present",
       "bullets": [
-        "Maintaining and scaling a Learning Management System used by 10,000+ users.",
-        "Building AI-driven features using OpenAI API and LangChain to enhance learning experiences.",
-        "Implementing microservices architecture with Docker and AWS for better scalability.",
-        "Reduced deployment time by 60% by streamlining CI/CD pipelines."
+        "Led development of 5+ production-grade frontend applications using React, improving UI performance, responsiveness, and stability.",
+        "Built scalable state management using Redux Toolkit, Zustand, React Query with optimized caching and background revalidation.",
+        "Designed and consumed secure REST APIs, implemented authentication flows, and improved backend communication reliability.",
+        "Implemented CI/CD pipelines using GitHub Actions with PM2 + NGINX deployments, reducing deployment time and failures."
       ]
     }
   ],
   "contact": {
-    "email": "rsuneel47@gmail.com",
-    "phone": "+91-7351437357",
-    "linkedin": "https://www.linkedin.com/in/suneel7351/",
-    "github": "https://github.com/suneel7351",
+    "email": "loharjayprakash4@gmail.com",
+    "phone": "+91-8875140357",
+    "linkedin": "https://www.linkedin.com/in/jay-prakash-lohar-571823236",
+    "github": "https://github.com/jayprakashlohar",
     "location": "Delhi, India"
   },
-  "resume_path": "/suneel-kumar.pdf",
-  "short_bio": "Software Engineer with 2+ years of experience building full-stack SaaS and AI-driven products. Skilled in React, Node.js, MongoDB, SQL, and Generative AI. Passionate about delivering scalable, production-ready solutions that create real business impact.",
+  "resume_path": "/resume.pdf",
+  "short_bio": "Full Stack Developer with 2+ years of experience building scalable web applications using React, Next.js, and the MERN stack. Expertise in Redux Toolkit, Zustand, React Query, and modern frontend architectures. Passionate about performance optimization, clean code, and delivering production-ready solutions. Solved 1000+ DSA problems on Masai Platform and 250+ on LeetCode.",
   "achievements": [
-    "Delivered 8+ production applications impacting thousands of users.",
-    "Improved system performance by 35% through optimization and clean architecture.",
-    "Led the development of AI-powered automation features adopted company-wide.",
-    "Actively mentored junior developers and participated in technical interviews."
+    "Led development of 5+ production-grade frontend applications with improved performance and stability.",
+    "Reduced API latency by 30% through memoization and request optimizations.",
+    "Achieved 80%+ test coverage on critical modules using Jest.",
+    "Implemented CI/CD pipelines reducing deployment time and failures.",
+    "Solved 1000+ DSA problems on Masai Platform and 250+ on LeetCode."
   ]
 }
