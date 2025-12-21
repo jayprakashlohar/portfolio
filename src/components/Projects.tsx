@@ -24,6 +24,15 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
+  // Helper function to get image URL with base path
+  const getImageUrl = (imagePath: string) => {
+    // BASE_URL already includes trailing slash, so we need to handle leading slash in path
+    const baseUrl = import.meta.env.BASE_URL;
+    // If path starts with /, remove it since BASE_URL already provides the base path
+    const cleanPath = imagePath.startsWith('/') ? imagePath.slice(1) : imagePath;
+    return `${baseUrl}${cleanPath}`;
+  };
+
   const openProjectModal = (project: Project) => {
     setSelectedProject(project);
     setSelectedImageIndex(0);
@@ -75,7 +84,7 @@ const Projects = () => {
                   <div className="glass rounded-2xl overflow-hidden">
                     <div className="aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
                       <img
-                        src={project.images[0]}
+                        src={getImageUrl(project.images[0])}
                         alt={project.title}
                         className="w-full h-full object-cover"
                       />
