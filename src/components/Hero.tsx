@@ -4,6 +4,15 @@ import profile from '../data/profile.json';
 import AnimatedBackground from './AnimatedBackground';
 
 const Hero = () => {
+  // Helper function to get resume URL with base path
+  const getResumeUrl = () => {
+    const baseUrl = import.meta.env.BASE_URL;
+    const resumePath = profile.resume_path.startsWith('/')
+      ? profile.resume_path.slice(1)
+      : profile.resume_path;
+    return `${baseUrl}${resumePath}`;
+  };
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -15,7 +24,7 @@ const Hero = () => {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
       <AnimatedBackground />
-      
+
       {/* Hero Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <motion.div
@@ -67,7 +76,7 @@ const Hero = () => {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
             <motion.a
-              href={profile.resume_path}
+              href={getResumeUrl()}
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -76,7 +85,7 @@ const Hero = () => {
               <Download size={20} />
               Download Resume
             </motion.a>
-            
+
             <motion.button
               onClick={() => scrollToSection('contact')}
               whileHover={{ scale: 1.05 }}
