@@ -15,9 +15,11 @@
       ],
       "impact": "Streamlined workflow automation with visual canvas and role-based permissions",
       "period": "2024-01 - Present",
-      "images": ["/screenshots/fms.png"],
-      "repo": "https://github.com/Raghbir9101/FMS",
-      "live": "http://103.209.144.221/",
+      "images": [
+        "/screenshots/fms.png"
+      ],
+      "repo": "https://github.com/apps-ceoitbox/FMS.git",
+      "live": "https://flow.ceoitbox.com/",
       "problem": "Organizations needed an intuitive way to design, visualize, and manage complex workflows without writing code.",
       "solution": "Built a dynamic visual workflow builder using React Flow with drag-and-drop functionality, configurable node properties, and scalable architecture.",
       "tech_details": [
@@ -49,7 +51,9 @@
       ],
       "impact": "Enhanced team productivity with efficient task tracking and analytics",
       "period": "2024-11 - Present",
-      "images": ["/screenshots/delegation.png"],
+      "images": [
+        "/screenshots/delegation.png"
+      ],
       "repo": "https://github.com/apps-ceoitbox/new-delegation-1",
       "live": "https://task.ceoitbox.com/",
       "problem": "Teams needed a robust task management solution with real-time updates, priority management, and productivity insights.",
@@ -65,6 +69,44 @@
         "Improved task completion rate by 40%",
         "Real-time data synchronization with background updates",
         "Comprehensive analytics for productivity insights"
+      ]
+    },
+    {
+      "id": "attendix",
+      "title": "Attendix - Smart Attendance & Workforce Management",
+      "summary": "AI-powered attendance and workforce management platform designed to streamline employee tracking, productivity, and organizational operations.",
+      "role": "CEO & Full Stack Developer",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS",
+        "shadcn/ui",
+        "JWT",
+        "Socket.io",
+        "Cloudinary"
+      ],
+      "impact": "Simplified attendance management and improved workforce tracking efficiency",
+      "period": "2025-01 - Present",
+      "images": [
+        "/screenshots/attendix.png"
+      ],
+      "repo": "https://github.com/ishanyadav13290/attendix-backend.git",
+      "live": "https://attendix.in/",
+      "problem": "Businesses faced difficulties managing employee attendance, tracking work hours, and handling workforce operations efficiently using manual systems.",
+      "solution": "Built a modern attendance and workforce management platform with real-time tracking, smart reporting, and scalable management tools.",
+      "tech_details": [
+        "Developed secure authentication and role-based access system",
+        "Implemented real-time attendance and workforce tracking",
+        "Built analytics dashboards and reporting modules",
+        "Created scalable REST APIs for workforce operations",
+        "Integrated cloud-based media and document handling"
+      ],
+      "metrics": [
+        "Reduced manual attendance management efforts significantly",
+        "Improved workforce tracking and reporting efficiency",
+        "Enabled centralized employee management for organizations"
       ]
     },
     {
@@ -85,7 +127,9 @@
       ],
       "impact": "Enhanced business operations with AI automation",
       "period": "2024-06 - 2025-01",
-      "images": ["/screenshots/cbxai.png"],
+      "images": [
+        "/screenshots/cbxai.png"
+      ],
       "repo": "https://github.com/apps-ceoitbox/cbx_ai_project",
       "live": "https://ai.ceoitbox.com",
       "problem": "Manual processes required automation and intelligent decision-making capabilities.",
@@ -118,7 +162,9 @@
       ],
       "impact": "Simplified scheduling for teams with automated reminders and conflict prevention",
       "period": "2024-03 - 2024-08",
-      "images": ["/screenshots/meet.png"],
+      "images": [
+        "/screenshots/meet.png"
+      ],
       "repo": "https://github.com/apps-ceoitbox/cbxmeeting",
       "live": "https://meet.ceoitbox.com",
       "problem": "Teams struggled with managing meetings across platforms, overlapping schedules, and lack of automated reminders.",
@@ -142,10 +188,18 @@
       "title": "CBX Tree - Organization Hierarchy",
       "summary": "Interactive organizational tree visualization with hierarchy management and role-based views.",
       "role": "Full Stack Developer",
-      "stack": ["React", "D3.js", "Node.js", "MongoDB", "MUI/Material UI"],
+      "stack": [
+        "React",
+        "D3.js",
+        "Node.js",
+        "MongoDB",
+        "MUI/Material UI"
+      ],
       "impact": "Streamlined organization structure visualization and management",
       "period": "2024-05 - 2024-09",
-      "images": ["/screenshots/cbxtree.png"],
+      "images": [
+        "/screenshots/cbxtree.png"
+      ],
       "repo": "https://github.com/apps-ceoitbox/linktree",
       "live": "https://cbxtree.in",
       "problem": "Organizations needed an intuitive way to visualize and manage complex hierarchical structures.",
@@ -163,16 +217,23 @@
         "Real-time updates across team members"
       ]
     },
-
     {
       "id": "short-url-system",
       "title": "Short URL System",
       "summary": "URL shortening service with analytics, custom aliases, and QR code generation.",
       "role": "Full Stack Developer",
-      "stack": ["React", "Node.js", "MongoDB", "Express", "Chart.js"],
+      "stack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Chart.js"
+      ],
       "impact": "Simplified link sharing with tracking and analytics capabilities",
       "period": "2024-01 - 2024-03",
-      "images": ["/screenshots/shorturl.png"],
+      "images": [
+        "/screenshots/shorturl.png"
+      ],
       "repo": "https://github.com/Raghbir9101/shorturl",
       "live": "https://cbxit.in/",
       "problem": "Teams needed a reliable URL shortening service with click tracking and custom branding.",
